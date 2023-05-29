@@ -6,3 +6,4 @@ def solution(a, b):
     else :
         fin=case2
     return fin
+#return int(max(f"{a}{b}", f"{b}{a}"))
