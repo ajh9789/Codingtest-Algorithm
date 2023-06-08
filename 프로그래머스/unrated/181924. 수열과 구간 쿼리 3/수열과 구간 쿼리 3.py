@@ -5,3 +5,8 @@ def solution(arr, queries):
     
     answer = arr
     return answer
+
+# def solution(arr, queries):
+#     for a,b in queries:
+#         arr[a],arr[b]=arr[b],arr[a]
+#     return arr
