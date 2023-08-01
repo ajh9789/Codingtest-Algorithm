@@ -1,6 +1,5 @@
 def solution(a, b, c, d):
-    num=''.join(f"{a}{b}{c}{d}")
-    num=list(map(int,num))  #튜플을 맵으로 int로 바꾸고 리스트로 묶어줌
+    num = [a, b, c, d]
     num.sort()
     setnum = set(num)
     if len(setnum)==1: #모두가 같을 경우
