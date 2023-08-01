@@ -26,6 +26,7 @@ def solution(a, b, c, d):
         return num[0]
     
     #다른사람코드 각 숫자별 카운팅
+    #nums = [a, b, c, d]
     #counts = [nums.count(i) for i in nums]
         
     
